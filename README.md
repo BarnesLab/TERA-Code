@@ -1,12 +1,10 @@
-# Paper Title
-
-**Dynamic Modeling of Antiretroviral Adherence Leveraging Machine Learning Approaches in Young People Living with HIV**
+# Paper Title: Dynamic Modeling of Antiretroviral Adherence Leveraging Machine Learning Approaches in Young People Living with HIV**
 
 ## Setup
 
 Create a Python environment and install the packages listed in `requirements.txt`.
 
-### Using `venv`
+### Using `env`
 
 ```bash
 python3 -m venv tera_env
