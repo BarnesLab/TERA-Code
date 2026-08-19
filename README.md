@@ -1,4 +1,4 @@
-# Paper Title: Dynamic Modeling of Antiretroviral Adherence Leveraging Machine Learning Approaches in Young People Living with HIV**
+# Paper Title: Dynamic Modeling of Antiretroviral Adherence Leveraging Machine Learning Approaches in Young People Living with HIV
 
 ## Setup
 
