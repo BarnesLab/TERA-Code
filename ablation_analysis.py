@@ -155,7 +155,7 @@ def run_daily_models():
     rows=[{'model':name,**calculate_metrics(daily_y,p)} for name,p in predictions.items()]
     return pd.DataFrame(rows),predictions,pd.DataFrame(training_log)
 
-RUN_DAILY=True  # Set to False to load the saved verified metrics without retraining.
+RUN_DAILY=True  
 if RUN_DAILY:
     daily_results,daily_predictions,daily_training_log=run_daily_models()
     daily_results.to_csv(RESULTS/'daily_ablation_metrics.csv',index=False)
@@ -247,7 +247,7 @@ def run_weekly_models():
     rows=[{'model':name,**calculate_metrics(weekly_y,p)} for name,p in predictions.items()]
     return pd.DataFrame(rows),predictions,pd.DataFrame(training_log)
 
-RUN_WEEKLY=True  # Set to False to load the saved verified metrics without retraining.
+RUN_WEEKLY=True 
 if RUN_WEEKLY:
     weekly_results,weekly_predictions,weekly_training_log=run_weekly_models()
     weekly_results.to_csv(RESULTS/'weekly_ablation_metrics.csv',index=False)
